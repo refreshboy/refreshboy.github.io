@@ -285,13 +285,13 @@ defaults:
   - scope:
       path: ""
       type: posts
-    values:
-      layout: default
+    values: 
+      comments: true
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
       show_date: true
+      layout: default
 
 date_format: "%Y-%m-%d"
