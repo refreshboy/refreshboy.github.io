@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "일지"
-    url: /일지/
+    url: /diary/
   - title: "Notes"
-    url: /Notes/
+    url: /note/
   - title: "Posts"
-    url: /Posts/
+    url: /post/
   - title: "Study"
-    url: /Study/
+    url: /study/
   - title: "About"
-    url: /About/
+    url: /about/
