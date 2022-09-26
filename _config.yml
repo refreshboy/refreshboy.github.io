@@ -27,7 +27,7 @@ url                      : "https://refreshboy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "refreshboy/refreshboy.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/images/Logo.png"
 masthead_title           : "Blog"
 breadcrumbs              : true 
 words_per_minute         : 200
@@ -88,7 +88,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/images/Logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -222,7 +222,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -293,5 +293,17 @@ defaults:
       share: true
       related: true
       show_date: true
+# _pages
+  - scope:
+      path: ""
+      type: pages
+    values: 
+      layout: single
+      comments: false
+      author_profile: true
+      read_time: false
+      share: true
+      related: false
+      show_date: false
 
 date_format: "%Y-%m-%d"
