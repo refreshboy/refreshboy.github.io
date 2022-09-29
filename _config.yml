@@ -29,7 +29,7 @@ repository               : "refreshboy/refreshboy.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/images/Logo.png"
 masthead_title           : "Blog"
-breadcrumbs              : true 
+breadcrumbs              : false 
 words_per_minute         : 200
 comments:
   provider               : "disqus"
@@ -112,9 +112,9 @@ author:
   location         : "Seoul, South Korea"
   email            : "refreshboy@icloud.com"
   links:
-    - label: "refreshboy@icloud.com"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:refreshboy@icloud.com"
+    - label: # "refreshboy@icloud.com"
+      icon: # "fas fa-fw fa-envelope-square"
+      url: # "mailto:refreshboy@icloud.com"
     - label: "HBF Lab website"
       icon: "fas fa-fw fa-link"
       url: "https://hbf.re.kr/"
@@ -219,7 +219,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: # /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
