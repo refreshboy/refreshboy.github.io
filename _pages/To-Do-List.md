@@ -1,0 +1,15 @@
+---
+title: "To-Do List"
+permalink: /diary/
+layout: single
+---
+
+- Deep learning 서버 설치
+  - 우분투 환경 구축
+  - 원격 interpreter 환경 구축
+- Deep learning 공부
+- XAI 공부
+- Python 연습
+- 수영, 맨몸 운동
+- 연구
+
