@@ -6,5 +6,5 @@ author_profile: true
 taxonomy: diary
 ---
 
-일상의 생각들입니다.
+일상의 기록들입니다.
 
